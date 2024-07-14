@@ -18,7 +18,7 @@ public class Coustomer_MappingController {
     }
 
     @GetMapping("/getCustomer/{id}")
-    public CustomerEntity readID(@PathVariable("id") Long id){
+    public CustomerEntity readID(@PathVariable("id") long id){
         return services.getID(id);
     }
 
